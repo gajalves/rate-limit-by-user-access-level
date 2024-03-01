@@ -30,4 +30,5 @@ docker-compose up
 Once done the access the Application :
 - The API should be accessible at http://localhost:5002.
 - Port 5002 is mapped to the container's port 80, where the API is hosted.
+- Use Swagger http://localhost:5002/swagger/index.html
 - The Redis server is accessible at localhost:6379.
