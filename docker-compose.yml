@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  rate-limit-by-user-access-level:
+    image: ${DOCKER_REGISTRY-}ratelimitbyuseraccesslevel
+    container_name: rate-limit.api
+    build:
+      context: .
+      dockerfile: rate-limit-by-user-access-level/Dockerfile
+    depends_on:
+      - rate-limit-redis
+
+  rate-limit-redis:
+    image: redis:latest
+    container_name: rate-limit.Redis
+    restart: always
+    ports:
+      - '6379:6379'
