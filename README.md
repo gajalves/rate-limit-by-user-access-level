@@ -1,5 +1,5 @@
 # Rate Limitation by User Access Level
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![C#](https://img.shields.io/badge/C%23-.NET-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/) [![Redis](https://img.shields.io/badge/Redis-Database-red)](https://redis.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![C#](https://img.shields.io/badge/C%23-.NET-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/) [![Redis](https://img.shields.io/badge/Redis-Database-red)](https://redis.io/)\
 This application provides rate limitation functionality based on the user's access level. It allows users to authenticate and access certain endpoints while enforcing rate limits according to their subscription profile.
 
 ## Features:
